@@ -1,10 +1,12 @@
 求职助手桌面包 2.0.1 · 安装包校验信息
 
-安装包将在 GitHub Release 正式发布后提供下载：
-https://github.com/zac-wtf/get-jobs-desktop/releases
+安装包已在 GitHub Release v2.0.1 公开提供下载：
+https://github.com/zac-wtf/get-jobs-desktop/releases/tag/v2.0.1
 
-当前 Release 仍为草稿，正式发布前请不要把该页面当作已可公开下载安装包的地方。
-正式发布后，请用下列 SHA256 核对文件完整性。
+- Windows（x64）：https://github.com/zac-wtf/get-jobs-desktop/releases/download/v2.0.1/get-jobs-desktop-2.0.1-windows-x64.zip
+- macOS（Apple 芯片）：https://github.com/zac-wtf/get-jobs-desktop/releases/download/v2.0.1/get-jobs-desktop-2.0.1-macos-arm64.zip
+
+请用下列 SHA256 核对文件完整性。
 
 文件名：get-jobs-desktop-2.0.1-windows-x64.zip
 适用系统：64 位 Windows 10 / 11（x64）

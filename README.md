@@ -25,7 +25,10 @@ jar 构建时间：`2026-11-11T08:54:42Z`（合 2026-11-11 00:54，America/Los_A
 
 安装包文件名为 `get-jobs-desktop-2.0.1-windows-x64.zip`（64 位 Windows）和 `get-jobs-desktop-2.0.1-macos-arm64.zip`（Apple 芯片 Mac），校验和见 [安装包校验.txt](./安装包校验.txt) 与 [SHA256SUMS](./SHA256SUMS)。
 
-**安装包将在 Release 正式发布后提供下载。** 当前 Release 仍为草稿，正式发布前请不要把仓库或 Release 页当作已经可以公开取得安装文件的地方。正式发布后请到 https://github.com/zac-wtf/get-jobs-desktop/releases 下载，并用校验和核对文件。
+安装包已随 [Release v2.0.1](https://github.com/zac-wtf/get-jobs-desktop/releases/tag/v2.0.1) 公开提供下载。请用校验和核对文件后再安装：
+
+- Windows（x64）：[get-jobs-desktop-2.0.1-windows-x64.zip](https://github.com/zac-wtf/get-jobs-desktop/releases/download/v2.0.1/get-jobs-desktop-2.0.1-windows-x64.zip)
+- macOS（Apple 芯片）：[get-jobs-desktop-2.0.1-macos-arm64.zip](https://github.com/zac-wtf/get-jobs-desktop/releases/download/v2.0.1/get-jobs-desktop-2.0.1-macos-arm64.zip)
 
 ## 和上游项目的关系
 
@@ -82,7 +85,7 @@ jar 构建时间：`2026-11-11T08:54:42Z`（合 2026-11-11 00:54，America/Los_A
 
 见 [安装指南.md](./安装指南.md)。简要步骤：解压整个压缩包到本地磁盘，Windows 双击 `启动求职助手.vbs`，macOS 对 `求职助手.app` 使用右键「打开」。然后在自动弹出的 Chrome 窗口中扫码，并在管理页把四个平台的条件改成你自己的，再开始。
 
-请先确认你已从本仓库已正式发布的 Release 中下载安装包。**在 Release 正式发布前，这里还不能公开下载。**
+请从 [Release v2.0.1](https://github.com/zac-wtf/get-jobs-desktop/releases/tag/v2.0.1) 下载安装包，并用 [安装包校验.txt](./安装包校验.txt) 或 [SHA256SUMS](./SHA256SUMS) 核对。
 
 ## 数据存放位置
 
