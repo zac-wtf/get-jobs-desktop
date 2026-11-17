@@ -23,9 +23,9 @@ jar 构建时间：`2026-11-11T08:54:42Z`（合 2026-11-11 00:54，America/Los_A
 
 ## 如何获取安装包
 
-公开候选安装包的文件名是 `求职助手-Windows-公开候选.zip` 和 `求职助手-macOS-公开候选.zip`，校验和见 [安装包校验.txt](./安装包校验.txt) 与 [SHA256SUMS](./SHA256SUMS)。
+安装包文件名为 `get-jobs-desktop-2.0.1-windows-x64.zip`（64 位 Windows）和 `get-jobs-desktop-2.0.1-macos-arm64.zip`（Apple 芯片 Mac），校验和见 [安装包校验.txt](./安装包校验.txt) 与 [SHA256SUMS](./SHA256SUMS)。
 
-**当前还不能下载。** Release `v2.0.1` 在附件上传完成前没有可下载的安装包，请不要把本仓库或 Release 页当作已经可以取得安装文件的地方。
+**安装包将在 Release 正式发布后提供下载。** 当前 Release 仍为草稿，正式发布前请不要把仓库或 Release 页当作已经可以公开取得安装文件的地方。正式发布后请到 https://github.com/zac-wtf/get-jobs-desktop/releases 下载，并用校验和核对文件。
 
 ## 和上游项目的关系
 
@@ -82,7 +82,7 @@ jar 构建时间：`2026-11-11T08:54:42Z`（合 2026-11-11 00:54，America/Los_A
 
 见 [安装指南.md](./安装指南.md)。简要步骤：解压整个压缩包到本地磁盘，Windows 双击 `启动求职助手.vbs`，macOS 对 `求职助手.app` 使用右键「打开」。然后在自动弹出的 Chrome 窗口中扫码，并在管理页把四个平台的条件改成你自己的，再开始。
 
-请先确认你已从本仓库 Release 中下载到带附件的安装包。**在附件上传完成前，这里还不能下载。**
+请先确认你已从本仓库已正式发布的 Release 中下载安装包。**在 Release 正式发布前，这里还不能公开下载。**
 
 ## 数据存放位置
 
@@ -97,7 +97,7 @@ jar 构建时间：`2026-11-11T08:54:42Z`（合 2026-11-11 00:54，America/Los_A
 - 管理页第一屏是「环境变量配置」（接口地址、API Key、模型名）。这三项只服务于可选的 AI 招呼语，**不用 AI 就不必填**。
 - 出厂默认筛选条件来自 jar 内模板，使用说明记载为「上海 + 大模型/Java/Python/Go + 5-10年经验」。只改其中一个平台、却点了其他平台的「开始投递」，会按该平台仍保存的默认条件去投。
 - jar 内默认配置还带有模板黑名单，以及非空的默认招呼语 / AI 介绍与提示词。当前分发的安装包不修改这些默认值。
-- 公开候选安装包已附带 `LICENSE.txt` 与 `NOTICE.txt`。包内说明指向本项目 Issues；若你使用的安装包仍写着「地址待填」，请以本仓库的 Issues 页面为准：https://github.com/zac-wtf/get-jobs-desktop/issues
+- 公开安装包已附带 `LICENSE.txt` 与 `NOTICE.txt`，说明中的问题反馈指向本项目 Issues：https://github.com/zac-wtf/get-jobs-desktop/issues
 
 ## 文档
 

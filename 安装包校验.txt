@@ -1,14 +1,17 @@
-求职助手桌面包 2.0.1 · 公开候选安装包校验信息
+求职助手桌面包 2.0.1 · 安装包校验信息
 
-Windows 与 macOS 安装包计划作为 GitHub Release v2.0.1 的附件提供。
-当前附件尚未上传，现在还不能从 Releases 下载安装包。
-附件就绪后，请用下列 SHA256 核对文件完整性。
-Release 页：https://github.com/zac-wtf/get-jobs-desktop/releases
+安装包将在 GitHub Release 正式发布后提供下载：
+https://github.com/zac-wtf/get-jobs-desktop/releases
 
-文件名：求职助手-Windows-公开候选.zip
-大小：136886501 字节（约 130.5 MiB）
-SHA256：1df8069546f7bd812d409d94aa9eb1ef0259a48cb80383dc988e0fe33d6c9a7f
+当前 Release 仍为草稿，正式发布前请不要把该页面当作已可公开下载安装包的地方。
+正式发布后，请用下列 SHA256 核对文件完整性。
 
-文件名：求职助手-macOS-公开候选.zip
-大小：140754185 字节（约 134.2 MiB）
-SHA256：59e4168c1004c64d101b9746e40379dd038c65fc9e4ca835fb6169029c065bad
+文件名：get-jobs-desktop-2.0.1-windows-x64.zip
+适用系统：64 位 Windows 10 / 11（x64）
+大小：136886551 字节
+SHA256：e3368c0221ee3b68dacbbe26ace695a54b5c1a1a5e83813e285d57d09ffc661c
+
+文件名：get-jobs-desktop-2.0.1-macos-arm64.zip
+适用系统：macOS 11 或更高，Apple 芯片（arm64）
+大小：140754215 字节
+SHA256：d31c8f1f592c52bc64a0af94a1be4a2e4cf581fbf9a790224659fb480ee9c135
