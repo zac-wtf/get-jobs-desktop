@@ -1,0 +1,31 @@
+# 操作系统与编辑器
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.iml
+
+# 大型安装包和运行时（安装包通过 GitHub Releases 提供，不要提交进 Git）
+*.zip
+**/jre/
+**/runtime/
+**/patchright-driver/
+**/node
+**/node.exe
+
+# 程序数据库、登录态、日志
+**/getjobs.db
+**/db/*.db
+**/browser-data/
+**/logs/
+**/target/
+
+# 密钥与本地环境
+.env
+.env.*
+!.env.example
+**/secrets/
+*.pem
+*.p12
+*.keystore
